@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Upload csv e xls</h1>
-    <form action="">
+    <form action="processa.php" method="post" name="uploadCsvXls" enctype="multipart/form-data">
         <label for="">Arquivo</label>
         <br>
         <input type="file">
